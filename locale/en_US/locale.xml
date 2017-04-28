@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/jatsXmlEditor/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2017 National Documentation Centre
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.jatsXmlEditor.displayName">JatsXmlEditor Plugin</message>
+	<message key="plugins.generic.jatsXmlEditor.description">Editor for Jats XML</message>
+	<message key="plugins.generic.jatsXmlEditor.descriptionLong">This plugin allows you to create a Jats XML galley file for article</message>
+	
+	<message key="plugins.generic.jatsXmlEditor.createJatsFileLink">Create JATS File from Metadata</message>
+	<message key="plugins.generic.jatsXmlEditor.updateJatsFileLink">Update JATS File from Metadata</message>
+	<message key="plugins.generic.jatsXmlEditor.editJatsFileLink">Edit JATS File from Metadata</message>
+	<message key="plugins.generic.jatsXmlEditor.createJatsFileConfirm">Are you sure you want to create a JATS XML file containing the metadata of this submission? This file is going to be displayed publicly along with the submission's files.</message>
+
+	<message key="plugins.generic.jatsXmlEditor.section">Section</message>
+	<message key="plugins.generic.jatsXmlEditor.paragraph">Paragraph</message>
+	<message key="plugins.generic.jatsXmlEditor.sectionTitle">Title</message>
+	<message key="plugins.generic.jatsXmlEditor.paragraphContent">Content</message>
+	<message key="plugins.generic.jatsXmlEditor.addParagraph">Add Paragraph</message>
+	<message key="plugins.generic.jatsXmlEditor.addSection">Add Section</message>
+	<message key="plugins.generic.jatsXmlEditor.deleteParagraph">Delete Paragraph</message>
+	<message key="plugins.generic.jatsXmlEditor.deleteSection">Delete Section</message>
+	<message key="plugins.generic.jatsXmlEditor.noBodyTags">No Body Tags</message>
+	<message key="plugins.generic.jatsXmlEditor.sectionType">Section Type</message>
+	<message key="plugins.generic.jatsXmlEditor.bodyTags">Body Area Tags</message>
+	<message key="plugins.generic.jatsXmlEditor.backTags">Back Area Tags</message>
+	
+	<message key="plugins.generic.jatsXmlEditor.noBackTags">No Back Tags</message>
+	<message key="plugins.generic.jatsXmlEditor.addAck">Add Acknowledge</message>
+
+</locale>
