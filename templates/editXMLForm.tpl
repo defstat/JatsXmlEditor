@@ -1,11 +1,8 @@
 {**
- * plugins/generic/customBlockManager/settingsForm.tpl
+ * plugins/generic/jatsXmlEditor/editXMLForm.tpl
  *
- * Copyright (c) 2013-2016 Simon Fraser University Library
- * Copyright (c) 2003-2016 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) National Documentation Centre
  *
- * Form for Custom Block Plugin settings.
  *
  *}
 
