@@ -1,14 +1,13 @@
 <?php
 
 /**
- * @file plugins/generic/booksForReview/pages/BooksForReviewEditorHandler.inc.php
+ * @file plugins/generic/jatsXmlEditor/pages/JatsXmlEditorHandler.inc.php
  *
- * Copyright (c) 2013-2016 Simon Fraser University Library
- * Copyright (c) 2003-2016 John Willinsky
+ * Copyright (c) National Documentation Centre
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class BooksForReviewEditorHandler
- * @ingroup plugins_generic_booksForReview
+ * @class JatsXmlEditorHandler
+ * @ingroup plugins_generic_jatsXmlEditor
  *
  * @brief Handle requests for editor books for review functions.
  */
@@ -216,44 +215,44 @@ class JatsXmlEditorHandler extends Handler {
 		return parent::authorize($request, $args, $roleAssignments);
 	}
 
-	/**
-	 * Setup common template variables.
-	 * @param $subclass boolean set to true if caller is below this handler in the hierarchy
-	 */
-	function setupTemplate($subclass = false) {
-		$templateMgr =& TemplateManager::getManager();
-		$pageCrumbs = array(
-			array(
-				Request::url(null, 'user'),
-				'navigation.user'
-			),
-			array(
-				Request::url(null, 'editor'),
-				'user.role.editor'
-			)
-		);
+	///**
+	// * Setup common template variables.
+	// * @param $subclass boolean set to true if caller is below this handler in the hierarchy
+	// */
+	//function setupTemplate($subclass = false) {
+	//    $templateMgr =& TemplateManager::getManager();
+	//    $pageCrumbs = array(
+	//        array(
+	//            Request::url(null, 'user'),
+	//            'navigation.user'
+	//        ),
+	//        array(
+	//            Request::url(null, 'editor'),
+	//            'user.role.editor'
+	//        )
+	//    );
 
-		if ($subclass) {
-			$returnPage = Request::getUserVar('returnPage');
+	//    if ($subclass) {
+	//        $returnPage = Request::getUserVar('returnPage');
 
-			if ($returnPage != null) {
-				$validPages =& $this->getValidReturnPages();
-				if (!in_array($returnPage, $validPages)) {
-					$returnPage = null;
-				}
-			}
+	//        if ($returnPage != null) {
+	//            $validPages =& $this->getValidReturnPages();
+	//            if (!in_array($returnPage, $validPages)) {
+	//                $returnPage = null;
+	//            }
+	//        }
 
-			$pageCrumbs[] = array(
-				Request::url(null, 'editor', 'booksForReview', $returnPage),
-				AppLocale::Translate('plugins.generic.booksForReview.displayName'),
-				true
-			);
-		}
-		$templateMgr->assign('pageHierarchy', $pageCrumbs);
+	//        $pageCrumbs[] = array(
+	//            Request::url(null, 'editor', 'booksForReview', $returnPage),
+	//            AppLocale::Translate('plugins.generic.booksForReview.displayName'),
+	//            true
+	//        );
+	//    }
+	//    $templateMgr->assign('pageHierarchy', $pageCrumbs);
 
-		$bfrPlugin =& PluginRegistry::getPlugin('generic', JATS_XML_EDITOR_PLUGIN_NAME);
-		$templateMgr->addStyleSheet(Request::getBaseUrl() . '/' . $bfrPlugin->getStyleSheet());
-	}
+	//    $bfrPlugin =& PluginRegistry::getPlugin('generic', JATS_XML_EDITOR_PLUGIN_NAME);
+	//    $templateMgr->addStyleSheet(Request::getBaseUrl() . '/' . $bfrPlugin->getStyleSheet());
+	//}
 }
 
 ?>

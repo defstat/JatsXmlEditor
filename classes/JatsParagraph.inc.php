@@ -1,13 +1,15 @@
 <?php
 
 /**
- * Paragraph short summary.
+ * @file plugins/jatsXmlEditor/classes/JatsParagraph.inc.inc.php
  *
- * Paragraph description.
+ * Copyright (c) National Documentation Centre
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @version 1.0
- * @author defstathiou
+ * @class JatsParagraph
+ *
  */
+
 class JatsParagraph {
 	/** @var String */
 	var $content = '';

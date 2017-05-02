@@ -1,16 +1,13 @@
 <?php
 
 /**
- * @file plugins/importexport/.../classes/DOIExportDom.inc.php
+ * @file plugins/jatsXmlEditor/classes/JatsDom.inc.php
  *
- * Copyright (c) 2013-2016 Simon Fraser University Library
- * Copyright (c) 2003-2016 John Willinsky
+ * Copyright (c) National Documentation Centre
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class DOIExportDom
- * @ingroup plugins_importexport_..._classes
+ * @class JatsDom
  *
- * @brief Onix for DOI (O4DOI) XML export format implementation.
  */
 
 

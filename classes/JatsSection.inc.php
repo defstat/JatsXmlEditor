@@ -1,12 +1,13 @@
 <?php
 
 /**
- * Section short summary.
+ * @file plugins/jatsXmlEditor/classes/JatsSection.inc.inc.php
  *
- * Section description.
+ * Copyright (c) National Documentation Centre
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @version 1.0
- * @author defstathiou
+ * @class JatsSection
+ *
  */
 
 

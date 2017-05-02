@@ -1,16 +1,13 @@
 <?php
 
 /**
- * @file plugins/importexport/crossref/classes/CrossRefExportDom.inc.php
+ * @file plugins/jatsXmlEditor/classes/JatsExportDom.inc.inc.php
  *
- * Copyright (c) 2013-2016 Simon Fraser University Library
- * Copyright (c) 2003-2016 John Willinsky
+ * Copyright (c) National Documentation Centre
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class CrossRefExportDom
- * @ingroup plugins_importexport_crossref_classes
+ * @class JatsDom
  *
- * @brief CrossRef XML export format implementation.
  */
 
 
