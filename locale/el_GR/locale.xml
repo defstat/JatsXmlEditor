@@ -13,11 +13,27 @@
 
 <locale name="el_GR" full_name="ελληνικά">
 	<message key="plugins.generic.jatsXmlEditor.displayName">Πρόσθετο JatsXmlEditor</message>
-	<message key="plugins.generic.jatsXmlEditor.description">Πρόσθετο υποβολής σε ένα βήμα</message>
-	<message key="plugins.generic.jatsXmlEditor.descriptionLong">Το πρόσθετο αυτό σας επιτρέπει να προσθέσετε γρήγορα νέες υποβολές είτε στη σειρά αναμονής για επιμέλειας ή κατευθείαν σε ένα τεύχος.</message>
+	<message key="plugins.generic.jatsXmlEditor.description">Πρόσθετο JatsXmlEditor</message>
+	<message key="plugins.generic.jatsXmlEditor.descriptionLong">Το πρόσθετο αυτό δίνει την δυνατότητα προσθήκης και επεξεργασίας αρχείων Jats στο πλαίσιο ενός άρθρου</message>
 
 	<message key="plugins.generic.jatsXmlEditor.createJatsFileLink">Δημιουργία Jats XML αρχείου</message>
 	<message key="plugins.generic.jatsXmlEditor.updateJatsFileLink">Ενημέρωση Jats XML αρχείου</message>
 	<message key="plugins.generic.jatsXmlEditor.editJatsFileLink">Επεξεργασία Jats XML αρχείου</message>
 	<message key="plugins.generic.jatsXmlEditor.createJatsFileConfirm">Είστε σίγουροι ότι θέλετε να δημιουργήσετε ένα JATS XML αρχείο με τα μεταδεδομένα της συγκεκριμένης καταχώρησης; Το αρχείο αυτό θα εμφανιστεί δημόσια μαζί με τα αρχεία της καταχώρισης.</message>
+
+	<message key="plugins.generic.jatsXmlEditor.section">Section</message>
+	<message key="plugins.generic.jatsXmlEditor.paragraph">Paragraph</message>
+	<message key="plugins.generic.jatsXmlEditor.sectionTitle">Τίτλος</message>
+	<message key="plugins.generic.jatsXmlEditor.paragraphContent">Περιεχόμενο</message>
+	<message key="plugins.generic.jatsXmlEditor.addParagraph">Προσθήκη Παραγράφου</message>
+	<message key="plugins.generic.jatsXmlEditor.addSection">Προσθήκη Section</message>
+	<message key="plugins.generic.jatsXmlEditor.deleteParagraph">Διαγραφή Παραγράφου</message>
+	<message key="plugins.generic.jatsXmlEditor.deleteSection">Διαγραφή Section</message>
+	<message key="plugins.generic.jatsXmlEditor.noBodyTags">Δεν υπάρχει περιεχόμενο ακόμη</message>
+	<message key="plugins.generic.jatsXmlEditor.sectionType">Τύπος Section</message>
+	<message key="plugins.generic.jatsXmlEditor.bodyTags">Body</message>
+	<message key="plugins.generic.jatsXmlEditor.backTags">Back</message>
+
+	<message key="plugins.generic.jatsXmlEditor.noBackTags">Δεν υπάρχει περιεχόμενο ακόμη</message>
+	<message key="plugins.generic.jatsXmlEditor.addAck">Προσθήκη Ευχαριστιών</message>
 </locale>
