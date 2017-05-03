@@ -6,7 +6,7 @@
  * Copyright (c) National Documentation Centre
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class JatsDom
+ * @class JatsExportDom
  *
  */
 

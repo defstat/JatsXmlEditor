@@ -14,4 +14,5 @@
 	<type>plugins.generic</type>
 	<release>1.0.0.0</release>
 	<date>2017-02-14</date>
+	<class>JatsXmlEditorPlugin</class>
 </version>
